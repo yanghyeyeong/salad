@@ -40,7 +40,7 @@ $(function () {
         // total = 4 이미지개수 4 -1 = 3 eq(3)
 
         let i = 0; //이미지 순번
-        start();
+        // start();
 
         function fade() {
             $(".panel li").stop().fadeOut();

@@ -14,6 +14,11 @@ body {
     overflow-x: hidden;
     font-family: "Noto Sans KR", sans-serif;
 }
+* {
+    animation: none !important;
+    transition: none !important;
+}
+
 /* --------------모바일 버전-------------- */
 @media (max-width: 760px) {
     /*header*/
@@ -49,11 +54,9 @@ body {
     .hideMenu {
         width: 25px;
         height: 25px;
-        /* border: 1px solid red; */
         margin-top: 23px;
         margin-right: 10px;
         position: relative;
-        /* display: none; */
     }
     .hideMenu div {
         width: 100%;
@@ -95,7 +98,7 @@ body {
     }
     .nav4 {
         width: 100%;
-        height: 610px;
+        height: 650px;
         background-color: #fff;
         position: absolute;
         right: 00px;
@@ -115,9 +118,9 @@ body {
         font-weight: bold;
     }
     .nav4 li {
-        width: 70%;
+        width: 80%;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         text-align: center;
         align-items: center;
         line-height: 30px;
@@ -126,18 +129,21 @@ body {
     }
 
     .nav4 li a {
-        width: 120px;
-        font-size: 14px;
+        width: 150px;
+        font-size: 12px;
     }
     .nav4 li a:hover {
+        width: 150px;
         font-weight: bold;
-        background-color: #66c64c;
+        /* background-color: #66c64c; */
         border-radius: 100px;
-        color: #fff;
+        /* color: #fff; */
+        text-decoration: underline;
     }
     .nav4 hr {
         width: 100%;
         opacity: 0.5;
+        margin: 10px 0px;
     }
     .nav4login {
         width: 100%;
@@ -835,7 +841,7 @@ body {
         font-weight: bold;
     }
     .nav4 li {
-        width: 70%;
+        width: 80%;
         display: flex;
         justify-content: space-between;
         text-align: center;
@@ -845,19 +851,19 @@ body {
     }
 
     .nav4 li a {
-        width: 120px;
-        font-size: 14px;
+        width: 150px;
+        font-size: 12px;
     }
     .nav4 li a:hover {
+        width: 150px;
         font-weight: bold;
-        background-color: #66c64c;
         border-radius: 100px;
-        color: #fff;
+        text-decoration: underline;
     }
     .nav4 hr {
         width: 100%;
         opacity: 0.5;
-        margin: 10px 0px;
+        margin: 20px 0px;
     }
     .nav4login {
         width: 100%;
@@ -950,7 +956,7 @@ body {
         height: 20px;
         font-size: 30px;
         color: #66c64c;
-        top: 45%;
+        top: 55%;
         transform: translateY(-45%);
     }
     .prev {
@@ -1475,7 +1481,7 @@ body {
     /*slider*/
     .slider {
         width: 100%;
-        height: 596px;
+        height: 600px;
         margin: 00px auto;
         position: relative;
     }
@@ -1539,7 +1545,7 @@ body {
         height: 20px;
         font-size: 30px;
         color: #66c64c;
-        top: 55%;
+        top: 53%;
         transform: translateY(-55%);
     }
     .prev {
@@ -1759,21 +1765,21 @@ body {
 
     /*con4Panel*/
     .con4Panel {
-        width: 1280px;
+        width: 1200px;
         display: flex;
-        justify-content: center;
-        gap: 20px;
+        justify-content: space-between;
+        gap: 50px;
         /* overflow: hidden; */
-        margin: 0px auto;
+        /* margin: 0px auto; */
         /* border: 1px solid red; */
     }
     .con4Panel li {
-        width: calc(100% / 4 - 20px);
-        margin: 30px;
+        /* width: calc(100% / 4 - 50px); */
+        /* margin: 30px; */
         box-sizing: border-box;
     }
     .con4Panel li img {
-        width: 300px;
+        width: 400px;
         box-sizing: border-box;
         display: block;
         border-radius: 30px;
@@ -1784,7 +1790,7 @@ body {
         height: 350px;
     }
     .food2 img {
-        height: 200px;
+        height: 260px;
     }
     .food3 img {
         /* margin-top: 80px; */
@@ -1795,10 +1801,13 @@ body {
         height: 300px;
     }
     .food5 img {
-        height: 300px;
+        height: 360px;
     }
     .food6 img {
         height: 500px;
+    }
+    .food7 img {
+        height: 300px;
     }
     /*con5*/
     .con5 {
