@@ -260,7 +260,7 @@ body {
         margin-bottom: 30px;
         display: flex;
         justify-content: center;
-        padding-left: 33px;
+        /* padding-left: px; */
         box-sizing: border-box;
         gap: 50px;
     }
@@ -346,7 +346,7 @@ body {
         box-sizing: border-box;
     }
     .con2Txt li {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
         /* border: 1px solid red; */
         text-align: center;
@@ -410,6 +410,7 @@ body {
         font-size: 20px;
         text-align: center;
         margin: 100px auto;
+
         background-color: rgb(220, 255, 208);
         border-radius: 100px;
         padding: 5px;
@@ -434,6 +435,7 @@ body {
         gap: 30px;
         padding: 0px 20px 0px 20px;
         box-sizing: border-box;
+        margin-top: -50px;
     }
 
     .con3_mdPick h3 {
@@ -487,9 +489,9 @@ body {
         margin-top: 30px;
     }
     .con3_mdPickTxt2 p {
-        width: 150px;
+        width: 100%;
         line-height: 30px;
-        font-size: 11px;
+        font-size: 10px;
         /* text-align: center; */
         padding-left: 10px;
         border: 1px solid gainsboro;
