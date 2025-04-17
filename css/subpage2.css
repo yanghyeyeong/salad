@@ -264,13 +264,13 @@ body {
         margin-bottom: 30px;
         display: flex;
         justify-content: center;
-        padding-left: 33px;
+        /* padding-left: 33px; */
         box-sizing: border-box;
         gap: 50px;
     }
     .con1mainTxt h3 {
         /* width: 120px; */
-        font-size: 16px;
+        font-size: 14px;
     }
     .con1mainTxt h3 a:hover {
         color: #66c64c;
@@ -282,7 +282,7 @@ body {
         height: 100%;
     }
     .con1_menu h2 {
-        width: 150px;
+        width: 200px;
         font-size: 20px;
         text-align: center;
         margin: 70px auto;
@@ -329,7 +329,7 @@ body {
         display: block;
         text-align: right;
         margin-bottom: 10px;
-        padding: 10px;
+        padding: 20px;
         font-size: 14px;
     }
     .con1_more a:hover {
@@ -345,7 +345,7 @@ body {
     }
 
     .con1_menuTxt2 img {
-        width: 230px;
+        width: 200px;
         border-radius: 30px;
         margin-bottom: 5px;
     }
@@ -370,7 +370,7 @@ body {
     }
     .con2 .hidden {
         width: 300px;
-        height: 2px;
+        height: 3px;
         background-color: rgb(220, 255, 208);
         position: absolute;
         left: 50%;
@@ -404,7 +404,7 @@ body {
         width: 40%;
         height: 300px;
 
-        font-size: 18px;
+        font-size: 14px;
         display: flex;
         justify-content: center;
         align-items: center;
