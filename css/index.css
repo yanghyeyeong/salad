@@ -171,7 +171,7 @@ body {
     }
     /*slider*/
     .slider {
-        width: 98%;
+        width: 95%;
         height: 0%;
         /* padding-bottom: calc(300 / 1300 * 100%); */
         padding-bottom: 56.25%;
@@ -311,9 +311,10 @@ body {
         text-align: center;
         font-size: 13px;
     }
+
     .line-th {
         text-decoration: line-through;
-        font-size: 12px;
+        font-size: 10px;
         color: gray;
     }
     /*con3*/
