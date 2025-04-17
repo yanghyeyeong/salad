@@ -264,13 +264,13 @@ body {
         margin-bottom: 30px;
         display: flex;
         justify-content: center;
-        padding-left: 33px;
+        /* padding-left: 33px; */
         box-sizing: border-box;
         gap: 50px;
     }
     .con1mainTxt h3 {
         /* width: 120px; */
-        font-size: 16px;
+        font-size: 14px;
     }
     .con1mainTxt h3 a:hover {
         color: #66c64c;
@@ -282,7 +282,7 @@ body {
         height: 100%;
     }
     .con1_menu h2 {
-        width: 150px;
+        width: 200px;
         font-size: 20px;
         text-align: center;
         margin: 70px auto;
@@ -307,9 +307,9 @@ body {
     }
     /*con1_menuTxt*/
     .con1_menuTxt {
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 20px; */
         text-align: center;
         line-height: 70px;
     }
@@ -367,7 +367,7 @@ body {
     /*con3*/
 
     .con3 h2 {
-        width: 150px;
+        width: 200px;
         font-size: 20px;
         text-align: center;
         margin: 100px auto;
@@ -414,7 +414,7 @@ body {
     }
     .con3Menu2 img {
         display: block;
-        width: 240px;
+        width: 200px;
         border-radius: 20px;
         margin-bottom: 20px;
         object-fit: cover;
@@ -428,6 +428,7 @@ body {
     .con3Menu2 p {
         line-height: 50px;
         font-weight: bold;
+        font-size: 14px;
     }
     .con3Menu2 span {
         width: 100px;
@@ -451,7 +452,7 @@ body {
         height: 100%;
     }
     .con4 h2 {
-        width: 150px;
+        width: 200px;
         font-size: 20px;
         text-align: center;
         margin: 70px auto;
@@ -464,7 +465,7 @@ body {
     }
     .hidden {
         width: 300px;
-        height: 2px;
+        height: 3px;
         background-color: rgb(220, 255, 208);
         position: absolute;
         left: 50%;
@@ -482,22 +483,23 @@ body {
         width: 100%;
         height: 130px;
         margin: 0px auto;
-        padding: 10px;
+        /* padding: 10px; */
     }
     /*con4_best*/
     .con4_best {
         width: 100%;
         height: 100%;
         display: flex;
-        justify-content: space-between;
-        padding: 10px;
+        justify-content: center;
+        gap: 5px;
+        /* padding: 10px; */
     }
     .con4_best > div {
         width: 300px;
         position: relative;
     }
     .con4_best img {
-        width: 90%;
+        width: 100%;
         /* height: 400px; */
         object-fit: cover;
     }
