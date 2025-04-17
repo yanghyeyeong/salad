@@ -266,7 +266,7 @@ body {
     }
     .con1mainTxt h3 {
         /* width: 120px; */
-        font-size: 16px;
+        font-size: 14px;
     }
     .con1mainTxt h3 a:hover {
         color: #66c64c;
@@ -278,7 +278,7 @@ body {
         height: 100%;
     }
     .con1_menu h2 {
-        width: 150px;
+        width: 200px;
         font-size: 20px;
         text-align: center;
         margin: 70px auto;
@@ -291,7 +291,7 @@ body {
         border: 1px solid transparent;
     }
     .hidden {
-        width: 180px;
+        width: 300px;
         height: 3px;
         background-color: rgb(220, 255, 208);
         position: absolute;
@@ -311,7 +311,7 @@ body {
         /* margin: 50px auto; */
     }
     .con1_menuWrap li {
-        width: calc(100% / 3 - 10px);
+        width: calc(100% / 2 - 10px);
         margin-bottom: 50px;
     }
     .con1_menuWrap li img {
@@ -346,7 +346,7 @@ body {
         box-sizing: border-box;
     }
     .con2Txt li {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bold;
         /* border: 1px solid red; */
         text-align: center;
@@ -406,7 +406,7 @@ body {
         border: 1px solid transparent;
     }
     .con3 h2 {
-        width: 150px;
+        width: 200px;
         font-size: 20px;
         text-align: center;
         margin: 100px auto;
@@ -418,7 +418,7 @@ body {
         position: relative;
     }
     .hidden {
-        width: 280px;
+        width: 300px;
         height: 3px;
         background-color: rgb(220, 255, 208);
         position: absolute;
@@ -449,7 +449,7 @@ body {
         font-weight: bold;
         margin-top: 50px;
         margin-bottom: 5px;
-        font-size: 16px;
+        font-size: 18px;
     }
     .con3_mdPickTxt img {
         width: 50px;
@@ -489,7 +489,7 @@ body {
     .con3_mdPickTxt2 p {
         width: 150px;
         line-height: 30px;
-        font-size: 12px;
+        font-size: 11px;
         /* text-align: center; */
         padding-left: 10px;
         border: 1px solid gainsboro;
