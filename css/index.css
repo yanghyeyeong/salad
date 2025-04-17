@@ -171,11 +171,11 @@ body {
     }
     /*slider*/
     .slider {
-        width: 100%;
+        width: 98%;
         height: 0%;
         /* padding-bottom: calc(300 / 1300 * 100%); */
         padding-bottom: 56.25%;
-        margin: 10px auto;
+        margin: 22px auto;
         position: relative;
     }
     /*panel*/
@@ -279,7 +279,7 @@ body {
         box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
             rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
         text-align: center;
-        padding: 11px;
+        padding: 5px;
         box-sizing: border-box;
         margin-top: 10px;
         border-radius: 150px 150px 0px 0px;
@@ -293,7 +293,7 @@ body {
         transition: 0.8s;
     }
     .con2 h4 {
-        font-size: 15px;
+        font-size: 12px;
         text-align: center;
     }
     .con2 h5 {
@@ -309,6 +309,7 @@ body {
         color: #66c64c;
         font-weight: bold;
         text-align: center;
+        font-size: 13px;
     }
     .line-th {
         text-decoration: line-through;
