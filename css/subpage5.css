@@ -300,16 +300,16 @@ body {
     /*notiTxt*/
     .notiTxt {
         width: 100%;
-        height: 500px;
+        height: 550px;
         background-color: #005b44;
         /* display: flex;
         justify-content: center;
         gap: 30px; */
         /* padding: 20px; */
+        font-size: 14px;
     }
     .notibox1 {
         width: 100%;
-
         line-height: 70px;
         padding: 10px;
     }
