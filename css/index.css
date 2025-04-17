@@ -171,12 +171,13 @@ body {
     }
     /*slider*/
     .slider {
-        width: 95%;
+        width: 100%;
         height: 0%;
         /* padding-bottom: calc(300 / 1300 * 100%); */
         padding-bottom: 56.25%;
         margin: 22px auto;
         position: relative;
+        object-fit: contain;
     }
     /*panel*/
     .panel {
