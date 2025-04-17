@@ -389,11 +389,7 @@ body {
         z-index: -10;
     }
     /*con3Menu*/
-    .con3Menu {
-        /* display: flex;
-        justify-content: center;
-        gap: 20px; */
-    }
+
     .con3_more a {
         display: block;
         text-align: right;
